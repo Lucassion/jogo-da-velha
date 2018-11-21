@@ -1,0 +1,45 @@
+#jogodavelha{
+    width:603px;
+    height:600px;
+    border:solid 3px
+}
+#escolha{
+    width:603px;
+    height:100px;
+}
+ 
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+}
+ 
+.coluna{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+.jogador img{
+	max-width: 60;
+	height:auto;
+}
+.jogador{
+    width:200px;
+    float:left;
+	text-align: center;
+}
+.titulo{
+    width:200px;
+    height:20px;
+    float:left;
+}
+#player{
+	font-size: 30px;
+	color: #315e8a;
+}
+.coluna background-image {
+	height:90px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
